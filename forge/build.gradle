@@ -3,8 +3,8 @@ plugins {
 }
 loom {
     forge {
-        mixinConfig "archtest-common.mixins.json"
-        mixinConfig "archtest.mixins.json"
+        mixinConfig "yurisdeco-common.mixins.json"
+        mixinConfig "yurisdeco.mixins.json"
     }
 }
 architectury {

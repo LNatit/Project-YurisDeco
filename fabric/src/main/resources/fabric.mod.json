@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "archtest",
+  "id": "yurisdeco",
   "version": "${version}",
 
-  "name": "ArchTest",
+  "name": "Yuri's Deco",
   "description": "",
   "authors": [],
   "contact": {},
@@ -14,12 +14,12 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.lnatit.archtest.fabric.ArchTestFabric"
+      "com.lnatit.yurisdeco.fabric.YurisDecoFabric"
     ]
   },
   "mixins": [
-    "archtest.mixins.json",
-    "archtest-common.mixins.json"
+    "yurisdeco.mixins.json",
+    "yurisdeco-common.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.15.7",
